@@ -1,8 +1,20 @@
 const button = document.querySelector(".toggle");
 let adsEnabled = true; 
 
-button.addEventListener("click", toggleAds);
 
+
+function setState(value) {
+    chrome.storage.local.set({ adsEnabled: value }).then(() => {
+        console.log("Value is set");
+    });
+}
+
+chrome.storage.local.get(["adsEnabled"]).then((result) => {
+    adsEnabled = result.adsEnabled !== undefined ? result.adsEnabled : true;
+    updateButtonText(adsEnabled); 
+});
+
+button.addEventListener("click", toggleAds);
 function toggleAds() {
     if (adsEnabled) {
         chrome.declarativeNetRequest.updateEnabledRulesets(
@@ -14,8 +26,7 @@ function toggleAds() {
                 console.log("Unblocked Ads");
             }
         );
-        //window.location.reload();
-        button.textContent = "Enable"; 
+        
     } else {
         chrome.declarativeNetRequest.updateEnabledRulesets(
             {
@@ -26,9 +37,13 @@ function toggleAds() {
                 console.log("Blocked ads");
             }
         );
-        //window.location.reload();
-        button.textContent = "Disable"; 
+        
     }
     adsEnabled = !adsEnabled; 
+    setState(adsEnabled);
+    updateButtonText(adsEnabled);
 }
 
+function updateButtonText(adsEnabled) {
+    button.textContent = adsEnabled ? "Disable" : "Enable";
+}
