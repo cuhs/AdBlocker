@@ -11,9 +11,10 @@ function toggleAds() {
                 disableRulesetIds: ["ruleset_1"]
             },
             function() {
-                console.log("Ads are not blocked");
+                console.log("Unblocked Ads");
             }
         );
+        //window.location.reload();
         button.textContent = "Enable"; 
     } else {
         chrome.declarativeNetRequest.updateEnabledRulesets(
@@ -22,9 +23,10 @@ function toggleAds() {
                 disableRulesetIds: []
             },
             function() {
-                console.log("Ads are blocked");
+                console.log("Blocked ads");
             }
         );
+        //window.location.reload();
         button.textContent = "Disable"; 
     }
     adsEnabled = !adsEnabled; 
