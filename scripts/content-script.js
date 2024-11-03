@@ -2,11 +2,13 @@ const adElements = document.querySelectorAll('[id*="ad-"], [id*="-ad"], [class*=
 
 adElements.forEach(element => {
     if (element instanceof HTMLVideoElement) {
-        element.currentTime = element.duration || 0;
+        while(element.currentTime < element.duration)
+            element.currentTime+=10;
     } else {
         const videos = element.getElementsByTagName('video');
         for (let video of videos) {
-            video.currentTime = video.duration || 0;
+            while(video.currentTime < video.duration)
+                video.currentTime+=10;
         }
     }
 });
