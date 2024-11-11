@@ -80032,5 +80032,11 @@
 		"priority": 1,
 		"action": {"type": "block"},
 		"condition": {"urlFilter": "www.winaproduct.com"}
+	},
+	{
+		"id": 13340,
+		"priority": 1,
+		"action": {"type": "block"},
+		"condition": {"urlFilter": "loulowainoopsu.net"}
 }
 ]
