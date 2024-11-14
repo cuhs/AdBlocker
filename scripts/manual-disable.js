@@ -1,10 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
-    const ads = document.querySelectorAll('.ad');
-    const toggleButton = document.createElement('button');
-    toggleButton.className = 'toggleManual';
-    toggleButton.textContent = 'Enable Block Mode';
-    document.body.appendChild(toggleButton);
-
+    const toggleButton = document.querySelector('.toggleManual');
     let blockMode = false;
 
     // Retrieve blockMode from chrome local storage
@@ -20,9 +15,9 @@ document.addEventListener('DOMContentLoaded', function() {
         chrome.storage.local.set({ blockMode: blockMode });
     });
 
-    ads.forEach(ad => {
-        if (blockMode) {
-            ad.style.display = 'none';
+    document.addEventListener('click', function(event) {
+        if (blockMode && event.target.classList.contains('ad')) {
+            event.target.style.display = 'none';
         }
     });
 });
