@@ -20,4 +20,11 @@ document.addEventListener('DOMContentLoaded', function() {
             event.target.style.display = 'none';
         }
     });
+
+    // Allow users to click on ads to manually hide them
+    document.addEventListener('click', function(event) {
+        if (blockMode && event.target.closest('.ad')) {
+            event.target.closest('.ad').style.display = 'none';
+        }
+    });
 });
