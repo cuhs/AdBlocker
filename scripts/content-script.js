@@ -5,7 +5,7 @@ const skipAds = () => {
     adElements.forEach(element => {
         if (element instanceof HTMLVideoElement) {
             if (isFinite(element.duration)) {
-                element.currentTime += 3; 
+                element.currentTime = element.duration; 
             }
         } else {
             const videos = element.getElementsByTagName('video');
