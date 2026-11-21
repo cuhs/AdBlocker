@@ -80050,5 +80050,41 @@
 		"priority": 1,
 		"action": {"type": "block"},
 		"condition": {"urlFilter": "https://sumpmanskybal.top/f/cedXyggwy4Od*EYRRILRogxpFBS0Tn*xt1*DxBg8p4rFCx_HcJn4cNVgK4MDcQD69es1fbA1rDK_lQs3fJEeMFgU7_8TT1Fp*R4F6nLBVJj4ha2D*CDBv4tANwGQmGdqtoI3L6w8kSJQWJu2bRD_vJ9_70Yomyx4bYwaAZFDjsPhI02DboxGF1gfYZFjipWfluka*eP9EbF_bWRMOJNLWKhrAWj_aExHES0ZAoPKoazPql4XaW84Zy1LZbKy*fkqtekxPwhVQYiXci45lOgWdOVJJE7LdEX8Lo*_YgEE_L805XoSunD166wqb4r3La03roribhiNk2j7wVZ1Xx5WUGx83SzuNrkYb_38sANphc*AxMlhprVRz_CKKjbI8fleemSDwefy1mlKxhrSlvB2zA"}
+	},
+	{
+		"id": 13343,
+		"priority": 1,
+		"action": {"type": "block"},
+		"condition": {"urlFilter": "https://stake.us/?c=1DJYQVCF&clickId=1739671624100010TUSTV62607Rf010R2a7R2027R6dd0R4618Rbc08Rfbe36V29"}
+	},
+	{
+		"id": 13344,
+		"priority": 1,
+		"action": {"type": "block"},
+		"condition": {"urlFilter": "https://tessaragair.top/iAWFNGXkRglTQAxgrbbxnu/108734/?scontext_r=Rx31hxh72CO94h3TwqzrsX83ZCkxqGrQ%2AbDI7ouli4HFTvd1qzrRthjOdGViGDUp&nrb=1&param_3=nortb_fallback&md=eyJ0YSI6Ik5vIHRvcGljcyIsInVhaCI6eyJhIjoiYXJtIiwiYiI6IjY0IiwicHYiOiIxNC40LjAiLCJ1diI6IjEzMS4wLjY3NzguMjA1IiwidWwiOlt7ImIiOiJHb29nbGUgQ2hyb21lIiwidiI6IjEzMS4wLjY3NzguMjA1In0seyJiIjoiQ2hyb21pdW0iLCJ2IjoiMTMxLjAuNjc3OC4yMDUifSx7ImIiOiJOb3RfQSBCcmFuZCIsInYiOiIyNC4wLjAuMCJ9XX0sIm4iOjAsInR2YyI6MzIsInR2Y2QiOjMsIm5wbCI6MSwidG4iOiJQSlNESVYiLCJwdCI6InRhYnVwIiwibWgiOiIyOTIzNjk3MzNkMWQ2MWFhZWY2NjUyMzdjOGU4ZjE4NSIsImMiOjUwNiwiZCI6LTEsImEiOjg4NTMsInMiOiIxNTEyeDk4MiIsImIiOiIxMDc0eDYwNCIsInIiOiJodHRwczovL2VkZ2VkZWxpdmVyeW5ldHdvcmsuY29tL3JjcC9ORGt3Tm1Jd01UZGtPR1JrWWpZMVpUWTNNV1U0WVdFNU16azBOalpqTXpjNlZVWndRMU5FUW5CTlZtaFJTekZDVm1SRk5ETkxNMnd5WTBWc2EyTlZlRnBOTVdoTFZrVndiazlIUm14bFIxcEVZMVJhVmsxWGJEQmxWRUoxWkRKbk5GWnROWFpQUlZKSlQxVTFiVTFFWkhGWFZtaEhZek5vU0ZwdWJHeFZSRlpUVlVSYVdtUkVWVFZYVjJSNVl6QTVhMk5zV2tSU1dHaDNUVE5PTTAxR1FrVlVSMlEiLCJxIjoiaHR0cHM6Ly9lZGdlZGVsaXZlcnluZXR3b3JrLmNvbS9wcm9yY3AvTlRrMllURm1Zamt6WmpkbU56ZGlPV00wWWpJNE9UUXpNamcxTTJSa1pXRTZUVlJDVjJGSVdtcGhiazVwVjFkb2RGWldWbEpWVlRWdlZHdFNXV05WTlc5aWExWlFVa2RKTWxKRmRHcGFWelEwVkZSS1dGTkZXbk5TUmtKVVpFWldSRnBHWTNwU1ZXaEtZVzVTY0dGWWJIWmxhbWMxVVZaR05FNXNhRTFYYlRsc1VWVkdTR1Z1Ykd4Wk0xSjBWVEpHTTFSWVduQlVhelZ0VVZoa1lWTXpjR2hhIiwiaCI6NjY5OCwibCI6ImVuLVVTIiwidCI6NDgwLCJ6Ijo1NTE4LCJrIjoxLCJ1IjoiNjdkYzA4Yjk2ZDIzYjBjYzhlNGExYSIsImYiOnRydWUsIndoIjoiMTA3NHg2MDQiLCJpaCI6IjE1MTJ4ODU3IiwiZSI6InFla3dzNjlwZmczZGIyaCIsIm8iOnRydWUsIm0iOjE3Mzk2NzE2Mjk5ODMsInciOiIlN0IlMjJ0aXRsZSUyMiUzQSUyMlNldmVyYW5jZSUyMCgyMDIyKSUyMFMwMkUwNSUyMiUyQyUyMmtleXdvcmRzJTIyJTNBJTVCJTVEJTJDJTIydG9wd29yZHMlMjIlM0ElNUIlMjJjaGluZXNlJTNBNCUyMiUyQyUyMndyb25nJTNBNCUyMiUyQyUyMnBvcnR1Z3Vlc2UlM0EzJTIyJTJDJTIycmVwb3J0JTNBMyUyMiU1RCU3RCIsInRzIjowLCJwciI6MiwiZG0iOjgsImhjIjoxMiwiYmwiOjAuNzksImJjIjoyLCJ2diI6Ikdvb2dsZSBJbmMuIChBcHBsZSkiLCJ2ciI6IkFOR0xFIChBcHBsZSwgQU5HTEUgTWV0YWwgUmVuZGVyZXI6IEFwcGxlIE0yIE1heCwgVW5zcGVjaWZpZWQgVmVyc2lvbikiLCJhYyI6MCwiY3QiOiJ1bmtub3duIiwiY2V0IjoiNGciLCJjZGxtIjotMSwiY2RsIjoxMCwiY3J0dCI6NTAsInRtcyI6MSwiY2UiOnRydWUsImNkIjozMCwib3IiOiJsYW5kc2NhcGUtcHJpbWFyeSIsImZzIjoiMCIsImZzbyI6IjAifQ&ec=weiQnI6MjMsICdkJiOzwiIyJiOwwiIlJiO7JSMzETM2AzMioTMsISMzgDM4UTMioTMsISM3QDOzgTNioTM9xiIpJiO71HLi8WRiozeiETMwgjI6IDLiczM5EjI6ETfsIybJJiO71Xf&pr=SQAzLbg2q3N4QBUWWGifYw"}
+	},
+	{
+		"id": 13345,
+		"priority": 1,
+		"action": {"type": "block"},
+		"condition": {"urlFilter": "tessaragair.top"}
+	},
+	{
+		"id": 13346,
+		"priority": 1,
+		"action": {"type": "block"},
+		"condition": {"urlFilter": "plyingunvoted.shop"}
+	},
+	{
+		"id": 13347,
+		"priority": 1,
+		"action": {"type": "block"},
+		"condition": {"urlFilter": "stake.us"}
+	},
+	{
+		"id": 13348,
+		"priority": 1,
+		"action": {"type": "block"},
+		"condition": {"urlFilter": "https://plyingunvoted.shop/p/L8azBzBO*4p7GQOU2utoJhPVifRKNlwIdqOJRisVhturDQ9G_qaZExBQuw1_LZnlD6qCkLyzyZBeD_IfRwLaI3vOeaAk2X2AD5FCPf*k2EKp_am1FvSsHW*B6dd8xvtShpyL0KliOcnrOdFx1xdH1b*QPFNmQu7KDq8_MYa_Ou2VPnZXzuLz_qpv4csG4xJCJbnzaNu3jzjrQL_jazVdpsMs1**kGM5NzVrfpcPcFRNo0ri68Lpx3PiCKyuvSjh_OvqTdamqIlUmynHEged39Fwf7SFF09xLvSA2hYtt2EGgXh9fCazEjdzk5W4cA1M157HTDlT9A*PArpYZXBSD4AirVf02tadc9uBRPEWqXkNrnaF4Dq8K00N5Mz8LtV_w6iiXAtymvB4R_WvNWQxhI26BdGpWq1iRcn8SPcOAgQHY6XejBKF6ZzbSNJlp565xQ0etaoewFCJOAzeja22DMAAKhtBN6jx5dtBxN5RzMaWCo8Mo9snQygEe7WMYBLVBeiofHDu2rE1YxkZKHr0AgoDkekagx_yuIFWPD8IedND8zIfNahs4MwY1sOukIFIu8sW8lhpv6nywSs1QDvztAU9PPL2Zyd80Q02PIrCkuP3fOQoZ*RAOO9PkxcBieBueWeMql_Wqad5gIKDzlE7lz0VJxpjqGHiEEy9EoqZY10G*sjlYqIECvKz0js6Ht9L_zM8VVkOVtmVhIvSmSbhJmZML7tday7I4PF_B*wxJXKKkc6zyts9XJv1yP3Vjse5LnrrumTah8YjTxmOI9Rs6DtA3ES8*EOSEX_0Fz21fs9fJKAz96Bi1o_UnWYcgaTd4_EBZwdJ*XV8IkQH7RVt*3TzisUKZITNQoFB8nyLA*F*RHIH9ABRJRd0sGfu_AOTyZfD_PZtyp8NeiOWjFSBykuhI7WwCS3Msv2qGOv2OImw?&param_3=uko0jp1heltqw2y&param_4=1739671680485"}
 }
 ]
